@@ -14,7 +14,7 @@
                     <el-main style="border-radius: 0; background-color: #d4deef">
                         <!-- <router-view></router-view> -->
                         <el-row type="flex" justify="center">
-                            <el-col :span="20">
+                            <el-col :span="22">
                                 <el-tag type="success">请输入序列，数值之间以英文逗号或空格分隔</el-tag>
                             </el-col>
                         </el-row>
@@ -28,8 +28,8 @@
                                 </el-input>
                             </el-col>
                             <el-col :span="1"></el-col>
-                            <el-col :span="4">
-                                <el-button type="primary" @click="doo">主要按钮</el-button>
+                            <el-col :span="6">
+                                <el-button type="primary" @click="doo">确定</el-button>
                             </el-col>
                         </el-row>
                         <el-row type="flex" justify="center">
